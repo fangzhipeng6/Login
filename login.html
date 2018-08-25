@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+		<title>change</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="login.css"/>
+	</head>
+	<body>
+		<div class="container">			
+			<div class="choices">
+				<div class="choice" id="login" onclick="on_click1();">登录			
+					<div class="menu1">
+						<div class="menu1-1"></div>
+						<div class="menu1-2">
+							<form action="" method="post" align="center">
+								<table>			
+									<tr>
+										<td align="right">用户名：</td>
+										<td align="left"><input type="text" name=""/></td>
+									</tr>
+									<tr>
+										<td align="right">密码：</td>
+										<td align="left"><input type="password" name="" /></td>
+									</tr>			
+								</table>
+								</br></br></br></br></br>
+								<input type="submit" id="sub"  onclick="click_login();"/>
+								<input type="reset"/>
+							</form>
+						</div>
+						</div>
+				</div>
+				<div class="choice" id="register" onclick="on_click2();">注册
+					<div class="menu2">
+						<div class="menu2-1"></div>
+						<div class="menu2-2">
+							<form action="" method="post" align="center">
+								<table>			
+									<tr>
+										<td align="right">用户名：</td>
+										<td align="left"><input type="text" name=""/></td>
+									</tr>
+									<tr>
+										<td align="right">密码：</td>
+										<td align="left"><input type="password" name="" /></td>
+									</tr>
+									<tr>
+										<td align="right">确认密码：</td>
+										<td align="left"><input type="password" name="" /></td>
+									</tr>
+									<tr>
+										<td align="right">性别：</td>
+										<td align="left">
+											<input type="radio" name="sex" value="男"/> 男
+											<input type="radio" name="sex" value="女"/> 女
+											</td>
+									</tr>
+									<tr>
+										<td align="right">出生日期：</td>
+										<td align="left"><input type="date" name="" value=""/></td>
+									</tr>
+									<tr>
+										<td align="right">邮箱：</td>
+										<td align="left"><input type="text" name="" value=""/></td>
+									</tr>				
+								</table>
+								</br>
+								<input type="submit"  id="sub" onclick="click_login();"/>
+								<input type="reset"/>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="login.js"></script>
+	</body>
+</html>
