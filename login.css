@@ -55,7 +55,7 @@ body,html{
 }
 
 .menu1-2:hover{
-	transition:all 3s;
+	transition:all 2s;
 	transform:rotateY(360deg);
 }
 
